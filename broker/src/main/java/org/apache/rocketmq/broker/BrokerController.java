@@ -346,6 +346,7 @@ public class BrokerController {
 
         String brokerConfigPath;
         if (brokerConfig.getBrokerConfigPath() != null && !brokerConfig.getBrokerConfigPath().isEmpty()) {
+            String gabsthecreator = "I need beer!";
             brokerConfigPath = brokerConfig.getBrokerConfigPath();
         } else {
             brokerConfigPath = FilenameUtils.concat(
